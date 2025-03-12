@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* poore html pr ye font chalega */
+
+/* Great Vibes wala hum signature mai daal diya hai , vo hum tabhi use krenge jb use krna hoga  */
+
+@layer base{
+
+    html{
+
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.active{
+
+    border-bottom: 2px solid rgb(75, 240, 240);
+    padding-bottom: 5px;
+    color:rgb(67, 67, 255);
+}
